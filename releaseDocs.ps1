@@ -6,6 +6,8 @@ param(
 write-host  "Build the documentation site" 
 write-host  "`ACTOR is $ACTOR" 
 
+$VersionFolder="18.1"
+
 $SOURCE_DIR=$psscriptroot
 $TEMP_REPO_DIR=[System.IO.Path]::GetFullPath("$psscriptroot/../docs-gh-pages")
 
@@ -24,20 +26,20 @@ if($checkBranch){
 }
 
 git checkout -b gh-pages_temp
-$items = Get-ChildItem
-foreach ($item in $items){
- if (($item.Name -ne "15.2") -and ($item.Name -ne "16.1") -and ($item.Name -ne "16.2") -and ($item.Name -ne "17.0") -and ($item.Name -ne "17.1") -and ($item.Name -ne "17.2")-and ($item.Name -ne "18.0")){
-  git rm $item -r
- }
+
+if (Test-Path ".\$VersionFolder") {
+	git rm  ".\$VersionFolder\*" -r
 }
+mkdir "$VersionFolder"
+
 write-host "Copy documentation into the repo"
 
-Copy-Item "$SOURCE_DIR\_site\*" .\ -Recurse -force
+Copy-Item "$SOURCE_DIR\_site\*" ".\$VersionFolder\" -Recurse -force
 
 write-host "Push the new docs to the remote branch"
 git config --local user.email "github-actions[bot]@users.noreply.sdl.com"
 git config --local user.name "github-actions[bot]"
-git add .\ -A
+git add "".\$VersionFolder" -A
 git commit -m "Update generated documentation"
 git push "$remote_repo" HEAD:gh-pages_temp
 Write-Output (${TOKEN}) | gh auth login --with-token
