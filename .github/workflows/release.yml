@@ -22,7 +22,7 @@ jobs:
 
     env:
       ProductName: 'Trados Studio'
-      ProductNameWithEdition: 'Trados Studio 2026 Relase'
+      ProductNameWithEdition: 'Trados Studio 2026 Release'
       ProductVersion: Studio19
       VersionNumber: 19
       VisualStudioEdition: 'Microsoft Visual Studio 2022'
