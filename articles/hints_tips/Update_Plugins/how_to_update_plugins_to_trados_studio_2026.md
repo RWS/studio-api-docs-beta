@@ -168,7 +168,7 @@ As part of the separation of MultiTerm from Trados Studio, the legacy assembly `
 using Sdl.Terminology.TerminologyProvider.Core;
 
 // Example URI for your termbase
-string termbaseUriString = "file:///C:/Termbases/MyTermbase.sdltb";
+string termbaseUriString = "ttb.file:///C:/Termbases/MyTermbase.ttb";
 Uri termbaseUri = new Uri(termbaseUriString);
 
 // Get the terminology provider singleton instance
@@ -189,8 +189,16 @@ if (!terminologyProvider.IsInitialized)
 }
 
 // Set up search parameters
-var sourceLanguage = new CultureInfo("en-US");
-var targetLanguage = new CultureInfo("it-IT");
+var sourceLanguage = new DefinitionLanguage
+{
+    Locale = "EN",
+    Name = "English"
+};
+var targetLanguage = new DefinitionLanguage
+{
+    Locale = "DE",
+    Name = "German"
+};
 string segmentText = "Insert your source segment text here";
 int maxResultsCount = 10;
 bool targetRequired = true;
