@@ -1,4 +1,4 @@
-# How to update plugins in Trados Studio
+# How to update plugins to Trados Studio - 2026 Release
 
 The following are a list of changes and known issues to consider when updating your plugin to be compatible with Trados Studio - 2026 Release.
 
