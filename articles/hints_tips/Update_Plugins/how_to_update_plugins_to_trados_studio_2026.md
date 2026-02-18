@@ -138,7 +138,7 @@ Standalone integrations may require binding redirects. Example for `App.config`:
 The BCM-related classes have been moved from Sdl.LanguagePlatform.TranslationMemoryApito TradosStudio.BcmLite:
 ```xml
 <Reference Include="TradosStudio.BcmLite">
-	<HintPath>C:\Program Files\Trados\Trados Studio\Studio19\TradosStudio.BcmLite.dll</HintPath>
+	<HintPath>$(ProgramFiles)\Trados\Trados Studio\Studio19\TradosStudio.BcmLite.dll</HintPath>
 </Reference>
 ```
 And some classes were renamed:
