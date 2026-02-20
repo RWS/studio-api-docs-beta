@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Release Notes for Trados Studio 2024 SR1 SR2 </title>
+      <title>Release Notes for Trados Studio 2026 Release SR2 </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Release Notes for Trados Studio 2024 SR1 SR2 ">
+      <meta name="title" content="Release Notes for Trados Studio 2026 Release SR2 ">
     
     
       <link rel="shortcut icon" href="../../favicon.ico">
@@ -80,13 +80,13 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="release-notes-for-varproductnamewithedition-sr2">Release Notes for Trados Studio 2024 SR1 SR2</h1>
+<h1 id="release-notes-for-varproductnamewithedition-sr2">Release Notes for Trados Studio 2026 Release SR2</h1>
 
 <h1 id="added-api-licensing-support-for-subscriptions">Added API licensing support for subscriptions</h1>
 <p>When creating standalone apps, you can now use Project automation API calls that need a license even if Trados Studio is licensed through a subscription. This expands the list of supported scenarios where Trados Studio is licensed through a perpetual license, or through a network server license.</p>
 <div class="NOTE">
 <h5>Note</h5>
-<p>Starting with Trados Studio 2024 SR1 SR2, when developing a standalone application using Project Automation APIs that require a license, make sure to call <code>LicenseManager.ReleaseLicense()</code> before the application exits. See <a href="../projectautomation/overview.html">Project Automation Overview</a> for more details.</p>
+<p>Starting with Trados Studio 2026 Release SR2, when developing a standalone application using Project Automation APIs that require a license, make sure to call <code>LicenseManager.ReleaseLicense()</code> before the application exits. See <a href="../projectautomation/overview.html">Project Automation Overview</a> for more details.</p>
 </div>
 <h1 id="terminology-provider">Terminology Provider</h1>
 <p>The changes are included in <code>Sdl.Terminology.TerminologyProvider.Core</code>.</p>
@@ -145,17 +145,17 @@
 <ul>
 <li>No longer implements interface <code>IEntryTransaction</code>.</li>
 </ul>
-<h4 id="markupposition"><a href="../../api/terminology/Sdl.Terminology.TerminologyProvider.Core.MarkupPosition.html">MarkupPosition</a></h4>
+<h4 id="markupposition"><a href="../../api/terminology/Sdl.Terminology.TerminologyProvider.Core.MarkupPosition.yml">MarkupPosition</a></h4>
 <ul>
 <li>No longer implements interface <code>IMarkupPosition</code>.</li>
 </ul>
-<h4 id="searchmarkupresult"><a href="../../api/terminology/Sdl.Terminology.TerminologyProvider.Core.SearchMarkupResult.html">SearchMarkupResult</a></h4>
+<h4 id="searchmarkupresult"><a href="../../api/terminology/Sdl.Terminology.TerminologyProvider.Core.SearchMarkupResult.yml">SearchMarkupResult</a></h4>
 <ul>
 <li>No longer implements interface <code>ISearchMarkupResult</code>.</li>
 <li>No longer implements interface <code>ISearchResult</code>.</li>
-<li>Type of property <code>Positions</code> was changed to <em>IList&lt;<a href="../../api/terminology/Sdl.Terminology.TerminologyProvider.Core.MarkupPosition.html">MarkupPosition</a>&gt;</em></li>
+<li>Type of property <code>Positions</code> was changed to <em>IList&lt;<a href="../../api/terminology/Sdl.Terminology.TerminologyProvider.Core.MarkupPosition.yml">MarkupPosition</a>&gt;</em></li>
 </ul>
-<h4 id="searchmarkupresultwithtermbasename"><a href="../../api/terminology/Sdl.Terminology.TerminologyProvider.Core.SearchMarkupResultWithTermbaseName.html">SearchMarkupResultWithTermbaseName</a></h4>
+<h4 id="searchmarkupresultwithtermbasename"><a href="../../api/terminology/Sdl.Terminology.TerminologyProvider.Core.SearchMarkupResultWithTermbaseName.yml">SearchMarkupResultWithTermbaseName</a></h4>
 <ul>
 <li>No longer implements interface <code>ISearchResultWithTermbaseName</code>.</li>
 <li>No longer implements interface <code>ISearchResult</code>.</li>
@@ -164,7 +164,7 @@
 <ul>
 <li>No longer implements interface <code>ISearchResult</code>.</li>
 </ul>
-<h4 id="searchresultwithtermbasename"><a href="../../api/terminology/Sdl.Terminology.TerminologyProvider.Core.SearchResultWithTermbaseName.html">SearchResultWithTermbaseName</a></h4>
+<h4 id="searchresultwithtermbasename"><a href="../../api/terminology/Sdl.Terminology.TerminologyProvider.Core.SearchResultWithTermbaseName.yml">SearchResultWithTermbaseName</a></h4>
 <ul>
 <li>No longer implements interface <code>ISearchResultWithTermbaseName</code>.</li>
 <li>No longer implements interface <code>ISearchResult</code>.</li>
@@ -174,7 +174,7 @@
 <li>Implements interface <code>ITerminologyProviderManager</code></li>
 <li>New method added <code>RemoveTerminologyProvider(Uri)</code> used to remove a terminology provider based on the provider <a href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></li>
 </ul>
-<h4 id="terminologyproviderstatus"><a href="../../api/terminology/Sdl.Terminology.TerminologyProvider.Core.TerminologyProviderStatus.html">TerminologyProviderStatus</a></h4>
+<h4 id="terminologyproviderstatus"><a href="../../api/terminology/Sdl.Terminology.TerminologyProvider.Core.TerminologyProviderStatus.yml">TerminologyProviderStatus</a></h4>
 <ul>
 <li>No longer implements interface <code>ITerminologyProviderStatus</code></li>
 </ul>
@@ -201,18 +201,18 @@
 <li>ITerminologyProviderStatus</li>
 </ul>
 <h3 id="updated-interfaces">Updated interfaces</h3>
-<h4 id="iconnectionawareterminologyprovider"><a href="../../api/terminology/Sdl.Terminology.TerminologyProvider.Core.IConnectionAwareTerminologyProvider.html">IConnectionAwareTerminologyProvider</a></h4>
+<h4 id="iconnectionawareterminologyprovider"><a href="../../api/terminology/Sdl.Terminology.TerminologyProvider.Core.IConnectionAwareTerminologyProvider.yml">IConnectionAwareTerminologyProvider</a></h4>
 <ul>
-<li>Type of property <code>Status</code> was changed to <a href="../../api/terminology/Sdl.Terminology.TerminologyProvider.Core.TerminologyProviderStatus.html">TerminologyProviderStatus</a></li>
+<li>Type of property <code>Status</code> was changed to <a href="../../api/terminology/Sdl.Terminology.TerminologyProvider.Core.TerminologyProviderStatus.yml">TerminologyProviderStatus</a></li>
 </ul>
 <h4 id="ilanguage"><a href="../../api/terminology/Sdl.Terminology.TerminologyProvider.Core.ILanguage.html">ILanguage</a></h4>
 <ul>
 <li>Type of property <code>Locale</code> was changed to <a href="../../api/core/Sdl.Core.Globalization.CultureCode.html">CultureCode</a>.</li>
 </ul>
-<h4 id="iterminologymarkupprovider"><a href="../../api/terminology/Sdl.Terminology.TerminologyProvider.Core.ITerminologyMarkupProvider.html">ITerminologyMarkupProvider</a></h4>
+<h4 id="iterminologymarkupprovider"><a href="../../api/terminology/Sdl.Terminology.TerminologyProvider.Core.ITerminologyMarkupProvider.yml">ITerminologyMarkupProvider</a></h4>
 <ul>
 <li>Is no longer extended by interfaces <code>IConnectionAwareTerminologyProvider</code>, <code>ITerminologyProvider</code> and <code>IDisposable</code></li>
-<li>Return type for method <code>SearchAndMarkup(string text, ILanguage source, ILanguage destination, int maxResultsCount, SearchMode mode, bool targetRequired)</code> was changed to <em>IList&lt;<a href="../../api/terminology/Sdl.Terminology.TerminologyProvider.Core.SearchMarkupResult.html">SearchMarkupResult</a>&gt;</em></li>
+<li>Return type for method <code>SearchAndMarkup(string text, ILanguage source, ILanguage destination, int maxResultsCount, SearchMode mode, bool targetRequired)</code> was changed to <em>IList&lt;<a href="../../api/terminology/Sdl.Terminology.TerminologyProvider.Core.SearchMarkupResult.yml">SearchMarkupResult</a>&gt;</em></li>
 </ul>
 <h4 id="iterminologyprovider"><a href="../../api/terminology/Sdl.Terminology.TerminologyProvider.Core.ITerminologyProvider.html">ITerminologyProvider</a></h4>
 <ul>
@@ -308,7 +308,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/RWS/studio-api-docs/blob/main/apiconcepts/releasenotes/tradosstudio2022sr2.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/RWS/studio-api-docs-beta/blob/main/apiconcepts/releasenotes/tradosstudio2022sr2.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
