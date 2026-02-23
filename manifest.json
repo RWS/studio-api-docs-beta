@@ -32027,10 +32027,10 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/hints_tips/Update_Plugins/how_to_update_plugins_to_trados_studio_2026.md",
+      "source_relative_path": "articles/hints_tips/Update_Plugins/how_to_update_plugins_to_trados_studio.md",
       "output": {
         ".html": {
-          "relative_path": "articles/hints_tips/Update_Plugins/how_to_update_plugins_to_trados_studio_2026.html"
+          "relative_path": "articles/hints_tips/Update_Plugins/how_to_update_plugins_to_trados_studio.html"
         }
       },
       "version": ""
