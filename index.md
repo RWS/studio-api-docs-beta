@@ -6,8 +6,9 @@ Read more on how you can write your first Var:ProductName plugin.
 ## [Learn more about Var:ProductNameWithEdition APIs](apiconcepts/overview.md) 
 Learn more about the APIs and what you can achieve with them.
 
-## [How to update plugins to Var:ProductNameWithEdition](articles/hints_tips/Update_Plugins/how_to_update_plugins_to_trados_studio.md) 
+## [How to update classic plugins to Var:ProductNameWithEdition](articles/hints_tips/Update_Plugins/how_to_update_plugins_to_trados_studio.md) 
 Learn more about how you can make your plugin compatible with Var:ProductNameWithEdition.
+⚠️ Note: Trados Studio 2026 Release will also support a new plugin system, check back for details on the new plugin system when it is made available.
 
 ## [Articles](articles/intro.md)
 Read articles on how to get more out of Var:ProductName.

@@ -1,9 +1,11 @@
-# How to update plugins to Trados Studio 2026 Release
+# How to update classic plugins to Var:ProductNameWithEdition
 
-The following are a list of changes and known issues to consider when updating your plugin to be compatible with Trados Studio 2026 Release.
+⚠️ Note: Var:ProductNameWithEdition will also support a new plugin system, check back for details on the new plugin system when it is made available.
+
+The following are a list of changes and known issues to consider when updating your plugin to be compatible with Var:ProductNameWithEdition.
 
 ## Transition to 64-Bit (x64)
-Studio Quantum is released as a 64-bit (x64) version. As a result, plug-ins must also be rebuilt and updated to target x64 in order to remain compatible. 
+Var:ProductNameWithEdition is released as a 64-bit (x64) version. As a result, plug-ins must also be rebuilt and updated to target x64 in order to remain compatible. 
 
 The following element must be added in a global property group of the .csproj file to target x64:
 

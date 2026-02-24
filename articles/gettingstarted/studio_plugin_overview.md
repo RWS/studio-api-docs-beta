@@ -1,5 +1,8 @@
 Studio plug-in overview
 ====
+
+⚠️ Note: Trados Studio 2026 Release will also support a new plugin system, check back for details on the new plugin system when it is made available.
+
 This section describes how to build and deploy third-party plug-ins for Var:ProductName. For more information on building specific types of plug-ins, refer to the relevant SDK documentation.
 
 Var:ProductName Plug-in Support
