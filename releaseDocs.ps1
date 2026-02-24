@@ -60,7 +60,7 @@ if ($betaSuffix -eq '-beta') {
 
     $betaHeaderHtml = @"
     <div style="background: #fff3cd; border-bottom: 3px solid #ffc107; padding: 12px 15px; width: 100%; box-sizing: border-box; text-align: center; color: #856404; font-weight: 700; font-size: 14px; position: fixed; top: 0; left: 0; right: 0; z-index: 99999;">
-      ⚠️ Beta / Prerelease Documentation - Subject to change. (V: $version | $timestamp)
+      ⚠️ Beta / Prerelease Documentation - Subject to change. (Api version $version | Published on $timestamp)
     </div>
 "@
 
