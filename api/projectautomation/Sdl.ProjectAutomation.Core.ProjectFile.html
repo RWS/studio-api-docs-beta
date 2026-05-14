@@ -794,8 +794,11 @@ and is set by the Scan task (see <a class="xref" href="Sdl.ProjectAutomation.Cor
 
   <a id="Sdl_ProjectAutomation_Core_ProjectFile_SourceFile_" data-uid="Sdl.ProjectAutomation.Core.ProjectFile.SourceFile*"></a>
   <h4 id="Sdl_ProjectAutomation_Core_ProjectFile_SourceFile" data-uid="Sdl.ProjectAutomation.Core.ProjectFile.SourceFile">SourceFile</h4>
-  <div class="markdown level1 summary"><p>If this is a target language file, gets the corresponding source language file.
-Returns <pre><code class="lang-csharp">null</code></pre> for source language files.
+  <div class="markdown level1 summary"><pre><code>        If this is a target language file, gets the corresponding source language file.
+        Returns 
+</code></pre>
+<pre><code class="lang-csharp">null</code></pre>
+<p>for source language files.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -903,9 +906,8 @@ Returns <code>null</code> for target language files.</p>
     </tbody>
   </table>
   <h5 id="Sdl_ProjectAutomation_Core_ProjectFile_UpdateSettings_Sdl_Core_Settings_ISettingsBundle__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><pre><code>&lt;p&gt;The project settings will be completely replaced with the specified settings, so any settings not present in
-</code></pre>
-<p>the updated settings bundle will revert to their defaults.</p>
+  <div class="markdown level1 remarks"><p>The project settings will be completely replaced with the specified settings, so any settings not present in
+the updated settings bundle will revert to their defaults.</p>
 </div>
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-condensed">

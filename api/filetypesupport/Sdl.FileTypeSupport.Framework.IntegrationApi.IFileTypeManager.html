@@ -1042,14 +1042,14 @@ the original native file, or they can be retrieved from the bilingual parser.</p
     </tbody>
   </table>
   <h5 id="Sdl_FileTypeSupport_Framework_IntegrationApi_IFileTypeManager_BuildNativeGenerator_Sdl_FileTypeSupport_Framework_NativeApi_IPersistentFileConversionProperties__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>This method may be used as a <a class="xref" href="Sdl.FileTypeSupport.Framework.IntegrationApi.NativeGeneratorProvider.html">NativeGeneratorProvider</a> delegate in the <a class="xref" href="Sdl.FileTypeSupport.Framework.IntegrationApi.IMultiFileConverter.html">IMultiFileConverter</a>.
+  <div class="markdown level1 remarks"><p>This method may be used as a <a class="xref" href="Sdl.FileTypeSupport.Framework.IntegrationApi.NativeGeneratorProvider.html">NativeGeneratorProvider</a> delegate in the <a class="xref" href="Sdl.FileTypeSupport.Framework.IntegrationApi.IMultiFileConverter.html">IMultiFileConverter</a>.</p>
 <example>
-The following example shows how to use this method with a multi file converter:</example></p>
+The following example shows how to use this method with a multi file converter:
 <pre><code class="lang-csharp">void SetNativeGeneratorProvider(IFileTypeManager manager, IMultiFileConverter converter)
 {
    converter.NativeGeneratorProvider = new NativeGeneratorProvider(manager.BuildFileGenerator);
 }</code></pre>
-
+</example>
 </div>
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-condensed">
@@ -2109,12 +2109,13 @@ The native fileType used for parsing is defined by the fileTypeDefinitionId - no
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo">CultureInfo</a></td>
         <td><span class="parametername">sourceLanguage</span></td>
-        <td><p>Expected source language of the files.
-<p>The same source (and target) language must be used for all the files processed with a single converter instance.</p>
-<p>If the language can be determined automatically
-from the content of the file (e.g. when reading a bilingual format such as TTX), this parameter may be ignored by the parser.
-If this parameter is left undefined, it is up to the file sniffer and/or parser to try to determine the
-language. Parser components may report an error or a warning if they cannot reliably identify the language.</p>
+        <td><p>Expected source language of the files.</p>
+<pre><code>        &lt;p&gt;The same source (and target) language must be used for all the files processed with a single converter instance.&lt;/p&gt;
+        &lt;p&gt;If the language can be determined automatically
+        from the content of the file (e.g. when reading a bilingual format such as TTX), this parameter may be ignored by the parser.
+        If this parameter is left undefined, it is up to the file sniffer and/or parser to try to determine the
+        language. Parser components may report an error or a warning if they cannot reliably identify the language.&lt;/p&gt;
+</code></pre>
 </td>
       </tr>
       <tr>
@@ -2243,7 +2244,7 @@ a file type definition matches the file:</p>
 <ol><li>The regular expression is evaluated against the name of the file to be converted. If it does not match,
 the file type definition is not used.</li><li>If a file sniffer is defined for the file type definition, it gets applied to the file. If the file sniffer
 does not indicate that the file is supported, the file type definition is not used.</li></ol>
-If no matching file type definition is found, a <a class="xref" href="Sdl.FileTypeSupport.Framework.IntegrationApi.OneOrMoreFilesNotSupportedException.html">OneOrMoreFilesNotSupportedException</a> is thrown.
+<p>If no matching file type definition is found, a <a class="xref" href="Sdl.FileTypeSupport.Framework.IntegrationApi.OneOrMoreFilesNotSupportedException.html">OneOrMoreFilesNotSupportedException</a> is thrown.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -2339,7 +2340,7 @@ a file type definition matches a file:</p>
 <ol><li>The regular expression is evaluated against the name of the file to be converted. If it does not match,
 the file type definition is not used.</li><li>If a file sniffer is defined for the file type definition, it gets applied to the file. If the file sniffer
 does not indicate that the file is supported, the file type definition is not used.</li></ol>
-If no matching file type definition is found, a <a class="xref" href="Sdl.FileTypeSupport.Framework.IntegrationApi.OneOrMoreFilesNotSupportedException.html">OneOrMoreFilesNotSupportedException</a> is thrown.
+<p>If no matching file type definition is found, a <a class="xref" href="Sdl.FileTypeSupport.Framework.IntegrationApi.OneOrMoreFilesNotSupportedException.html">OneOrMoreFilesNotSupportedException</a> is thrown.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -2380,12 +2381,13 @@ as parameter.</p>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo">CultureInfo</a></td>
         <td><span class="parametername">sourceLanguage</span></td>
-        <td><p>Expected source language of the files.
-<p>The same source (and target) language must be used for all the files processed with a single converter instance.</p>
-<p>If the language can be determined automatically
-from the content of the file (e.g. when reading a bilingual format such as TTX), this parameter may be ignored by the parser.
-If this parameter is left undefined, it is up to the file sniffer and/or parser to try to determine the
-language. Parser components may report an error or a warning if they cannot reliably identify the language.</p>
+        <td><p>Expected source language of the files.</p>
+<pre><code>        &lt;p&gt;The same source (and target) language must be used for all the files processed with a single converter instance.&lt;/p&gt;
+        &lt;p&gt;If the language can be determined automatically
+        from the content of the file (e.g. when reading a bilingual format such as TTX), this parameter may be ignored by the parser.
+        If this parameter is left undefined, it is up to the file sniffer and/or parser to try to determine the
+        language. Parser components may report an error or a warning if they cannot reliably identify the language.&lt;/p&gt;
+</code></pre>
 </td>
       </tr>
       <tr>
@@ -2516,7 +2518,7 @@ a file type definition matches:
 <ol><li>The regular expression is evaluated against the name of the file to be converted. If it does not match,
 the file type definition is not used.</li><li>If a file sniffer is defined for the file type definition, it is applied to the file. If the file sniffer
 does not indicate that the file is supported, the file type definition is not used.</li></ol>
-If no matching file type definition is found, a <a class="xref" href="Sdl.FileTypeSupport.Framework.IntegrationApi.OneOrMoreFilesNotSupportedException.html">OneOrMoreFilesNotSupportedException</a> is thrown.
+<p>If no matching file type definition is found, a <a class="xref" href="Sdl.FileTypeSupport.Framework.IntegrationApi.OneOrMoreFilesNotSupportedException.html">OneOrMoreFilesNotSupportedException</a> is thrown.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -2679,7 +2681,7 @@ a file type definition matches a file:
 <ol><li>The regular expression is evaluated against the name of the file to be converted. If it does not match,
 the file type definition is not used.</li><li>If a file sniffer is defined for the file type definition, it is applied to the file. If the file sniffer
 does not indicate that the file is supported, the file type definition is not used.</li></ol>
-If no matching file type definition is found, a <a class="xref" href="Sdl.FileTypeSupport.Framework.IntegrationApi.OneOrMoreFilesNotSupportedException.html">OneOrMoreFilesNotSupportedException</a> is thrown.
+<p>If no matching file type definition is found, a <a class="xref" href="Sdl.FileTypeSupport.Framework.IntegrationApi.OneOrMoreFilesNotSupportedException.html">OneOrMoreFilesNotSupportedException</a> is thrown.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -2711,12 +2713,13 @@ If no matching file type definition is found, a <a class="xref" href="Sdl.FileTy
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo">CultureInfo</a></td>
         <td><span class="parametername">sourceLanguage</span></td>
-        <td><p>Expected source language of the files.
-<p>The same source (and target) language must be used for all the files processed with a single converter instance.</p>
-<p>If the language can be determined automatically
-from the content of the file (e.g. when reading a bilingual format such as TTX), this parameter may be ignored by the parser.
-If this parameter is left undefined, it is up to the file sniffer and/or parser to try to determine the
-language. Parser components may report an error or a warning if they cannot reliably identify the language.</p>
+        <td><p>Expected source language of the files.</p>
+<pre><code>        &lt;p&gt;The same source (and target) language must be used for all the files processed with a single converter instance.&lt;/p&gt;
+        &lt;p&gt;If the language can be determined automatically
+        from the content of the file (e.g. when reading a bilingual format such as TTX), this parameter may be ignored by the parser.
+        If this parameter is left undefined, it is up to the file sniffer and/or parser to try to determine the
+        language. Parser components may report an error or a warning if they cannot reliably identify the language.&lt;/p&gt;
+</code></pre>
 </td>
       </tr>
       <tr>
@@ -2941,7 +2944,7 @@ a file type definition matches a file:
 <ol><li>The regular expression is evaluated against the name of the file to be converted. If it does not match,
 the file type definition is not used.</li><li>If a file sniffer is defined for the file type definition, it is applied to the file. If the file sniffer
 does not indicate that the file is supported, the file type definition is not used.</li></ol>
-If no matching file type definition is found, a <a class="xref" href="Sdl.FileTypeSupport.Framework.IntegrationApi.OneOrMoreFilesNotSupportedException.html">OneOrMoreFilesNotSupportedException</a> is thrown.
+<p>If no matching file type definition is found, a <a class="xref" href="Sdl.FileTypeSupport.Framework.IntegrationApi.OneOrMoreFilesNotSupportedException.html">OneOrMoreFilesNotSupportedException</a> is thrown.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -2979,12 +2982,13 @@ that will be passed to the multi-file converter and used for writing files as na
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo">CultureInfo</a></td>
         <td><span class="parametername">sourceLanguage</span></td>
-        <td><p>Expected source language of the files.
-<p>The same source (and target) language must be used for all the files processed with a single converter instance.</p>
-<p>If the language can be determined automatically
-from the content of the file (e.g. when reading a bilingual format such as TTX), this parameter may be ignored by the parser.
-If this parameter is left undefined, it is up to the file sniffer and/or parser to try to determine the
-language. Parser components may report an error or a warning if they cannot reliably identify the language.</p>
+        <td><p>Expected source language of the files.</p>
+<pre><code>        &lt;p&gt;The same source (and target) language must be used for all the files processed with a single converter instance.&lt;/p&gt;
+        &lt;p&gt;If the language can be determined automatically
+        from the content of the file (e.g. when reading a bilingual format such as TTX), this parameter may be ignored by the parser.
+        If this parameter is left undefined, it is up to the file sniffer and/or parser to try to determine the
+        language. Parser components may report an error or a warning if they cannot reliably identify the language.&lt;/p&gt;
+</code></pre>
 </td>
       </tr>
       <tr>

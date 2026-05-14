@@ -237,10 +237,11 @@ in Silverlight or WPF and the host application.</p>
         <td><a class="xref" href="../core/Sdl.Core.Settings.ISettingsBundle.html">ISettingsBundle</a></td>
         <td><span class="parametername">settingsBundle</span></td>
         <td><p>The settings bundle in which settings are persisted. The implementation should
-store this value and make it accessible from the <a class="xref" href="Sdl.FileTypeSupport.Framework.Core.Settings.IFileTypeSettingsPage.html#Sdl_FileTypeSupport_Framework_Core_Settings_IFileTypeSettingsPage_SettingsBundle">SettingsBundle</a> property.
-<p>The implementation should use settings from the bundle to initialize the user interface before
-returning the control from GetControl, and to persist changed settings in the
-<a class="xref" href="Sdl.FileTypeSupport.Framework.Core.Settings.IAbstractSettingsPage.html#Sdl_FileTypeSupport_Framework_Core_Settings_IAbstractSettingsPage_Save">Save()</a> method.</p>
+store this value and make it accessible from the <a class="xref" href="Sdl.FileTypeSupport.Framework.Core.Settings.IFileTypeSettingsPage.html#Sdl_FileTypeSupport_Framework_Core_Settings_IFileTypeSettingsPage_SettingsBundle">SettingsBundle</a> property.</p>
+<pre><code>        &lt;p&gt;The implementation should use settings from the bundle to initialize the user interface before
+        returning the control from GetControl, and to persist changed settings in the 
+        &lt;xref href=&quot;Sdl.FileTypeSupport.Framework.Core.Settings.IAbstractSettingsPage.Save&quot; data-throw-if-not-resolved=&quot;false&quot;&gt;&lt;/xref&gt; method.&lt;/p&gt;
+</code></pre>
 </td>
       </tr>
     </tbody>
