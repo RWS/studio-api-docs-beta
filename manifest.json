@@ -9945,6 +9945,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/integration/Sdl.Desktop.Platform.Controls.Behaviours.TextBoxSelectAllOnKeyboardFocusBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/integration/Sdl.Desktop.Platform.Controls.Behaviours.TextBoxSelectAllOnKeyboardFocusBehavior.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sdl.Desktop.Platform.Controls.Behaviours.TextBoxSelectAllOnKeyboardFocusBehavior",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/integration/Sdl.Desktop.Platform.Controls.Behaviours.TimedAutoHideBehaviour.yml",
       "output": {
         ".html": {
@@ -10547,6 +10561,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/integration/Sdl.Desktop.Platform.Controls.Converters.BoolToFlowDirectionConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/integration/Sdl.Desktop.Platform.Controls.Converters.BoolToFlowDirectionConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sdl.Desktop.Platform.Controls.Converters.BoolToFlowDirectionConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/integration/Sdl.Desktop.Platform.Controls.Converters.BooleanAndConverter.yml",
       "output": {
         ".html": {
@@ -10557,6 +10585,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Sdl.Desktop.Platform.Controls.Converters.BooleanAndConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/integration/Sdl.Desktop.Platform.Controls.Converters.BooleanAndToVisibilityConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/integration/Sdl.Desktop.Platform.Controls.Converters.BooleanAndToVisibilityConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sdl.Desktop.Platform.Controls.Converters.BooleanAndToVisibilityConverter",
       "Summary": null
     },
     {
@@ -10641,6 +10683,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Sdl.Desktop.Platform.Controls.Converters.BooleanToRatioRowHeightConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/integration/Sdl.Desktop.Platform.Controls.Converters.BooleanToVisibilityCollapsedConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/integration/Sdl.Desktop.Platform.Controls.Converters.BooleanToVisibilityCollapsedConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sdl.Desktop.Platform.Controls.Converters.BooleanToVisibilityCollapsedConverter",
       "Summary": null
     },
     {
@@ -10991,6 +11047,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Sdl.Desktop.Platform.Controls.Converters.MenuControlScopeToVisibilityConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/integration/Sdl.Desktop.Platform.Controls.Converters.NullToVisibilityConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/integration/Sdl.Desktop.Platform.Controls.Converters.NullToVisibilityConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sdl.Desktop.Platform.Controls.Converters.NullToVisibilityConverter",
       "Summary": null
     },
     {
@@ -16534,7 +16604,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Sdl.ProjectAutomation.Core.TranslationProviderReference",
-      "Summary": "<p sourcefile=\"api/projectautomation/Sdl.ProjectAutomation.Core.TranslationProviderReference.yml\" sourcestartlinenumber=\"1\">This class represents a reference to a translation provider, represented by a <pre><code class=\"lang-csharp\">Uri</code></pre>\nand optional provider-specific state information. There is also also an <xref href=\"Sdl.ProjectAutomation.Core.TranslationProviderReference.Enabled\" data-throw-if-not-resolved=\"false\"></xref>\nproperty which determines whether this translation provider will be used during translation provider\noperations in project.\n"
+      "Summary": "<pre><code sourcefile=\"api/projectautomation/Sdl.ProjectAutomation.Core.TranslationProviderReference.yml\" sourcestartlinenumber=\"1\">        This class represents a reference to a translation provider, represented by a \n</code></pre>\n<pre><code class=\"lang-csharp\">Uri</code></pre>\n<pre><code sourcefile=\"api/projectautomation/Sdl.ProjectAutomation.Core.TranslationProviderReference.yml\" sourcestartlinenumber=\"4\">        and optional provider-specific state information. There is also also an &lt;xref href=&quot;Sdl.ProjectAutomation.Core.TranslationProviderReference.Enabled&quot; data-throw-if-not-resolved=&quot;false&quot;&gt;&lt;/xref&gt;\n        property which determines whether this translation provider will be used during translation provider\n        operations in project.\n</code></pre>\n"
     },
     {
       "type": "ManagedReference",
@@ -22174,7 +22244,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Sdl.LanguagePlatform.TranslationMemory.SortSpecification",
-      "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemory.SortSpecification.yml\" sourcestartlinenumber=\"1\">Encapsulates a set of criteria used for sorting translation units.</p>\n<p>The order in which the different criteria are added to a sort specification is essential.\nOnly if two translation units are equivalent according to a sort criterium, the next relevant \ncriterium will be considered in order to decide which of the translation units comes first and so on.</p>\n<p>\nThe sort specification consists of a collection of <xref href=\"Sdl.LanguagePlatform.TranslationMemory.SortCriterium?text=SortCriterium\" data-throw-if-not-resolved=\"false\"></xref> objects which in turn\nmay refer to system fields or filter names, and include a specification whether to sort ascending or descending. \nTypical examples are:\n<example>\nSco/D UsD/D\n</example>\nwhich sorts descending by score and descending by last usage date.\n</p>\n"
+      "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemory.SortSpecification.yml\" sourcestartlinenumber=\"1\">Encapsulates a set of criteria used for sorting translation units.</p>\n<p>The order in which the different criteria are added to a sort specification is essential.\nOnly if two translation units are equivalent according to a sort criterium, the next relevant \ncriterium will be considered in order to decide which of the translation units comes first and so on.</p>\n<p>\nThe sort specification consists of a collection of <xref href=\"Sdl.LanguagePlatform.TranslationMemory.SortCriterium?text=SortCriterium\" data-throw-if-not-resolved=\"false\"></xref> objects which in turn\nmay refer to system fields or filter names, and include a specification whether to sort ascending or descending. \nTypical examples are:\n<example>\nSco/D UsD/D\n</example>\n<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemory.SortSpecification.yml\" sourcestartlinenumber=\"15\">which sorts descending by score and descending by last usage date.</p>\n\n"
     },
     {
       "type": "ManagedReference",
@@ -31767,30 +31837,10 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/gettingstarted/platform_support.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/gettingstarted/platform_support.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "articles/gettingstarted/plugin_deployment.md",
       "output": {
         ".html": {
           "relative_path": "articles/gettingstarted/plugin_deployment.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/gettingstarted/plugin_use_cases.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/gettingstarted/plugin_use_cases.html"
         }
       },
       "version": ""

@@ -124,7 +124,8 @@
   <h6><strong>Assembly</strong>: Sdl.FileTypeSupport.Framework.PreviewControls.dll</h6>
   <h5 id="Sdl_FileTypeSupport_Framework_PreviewControls_TempFileUtils_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class TempFileUtils</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Moved to TradosStudio&quot;)]
+public static class TempFileUtils</code></pre>
   </div>
   <h3 id="methods">Methods
 </h3>
@@ -162,7 +163,7 @@ Each string in the extensionMaps array can either be in two formats.  This first
 the original file extension followed by '|' and then the new file extension that will be used for a preview.  This will
 generate preview files using the second extension for all previews of file with the original file that matches first extension.  E.g.
 <pre><code class="lang-csharp">".txt | .htm"</code></pre>
-Will preview all .txt files by generating the a temp file using the .htm extension.
+<p>Will preview all .txt files by generating the a temp file using the .htm extension.</p>
 
 <p>
 The second format that can be used for a string in the extensionMaps array is simply the file extension to be used for

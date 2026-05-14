@@ -142,8 +142,8 @@ or Enter key is pressed. When <code>false</code> the edit control will not proce
 When the control appears in a dialog you can use this property to determine if the Return key
 should execute the default dialog action or insert a linebreak in the edit control.
 </p>
-Note that disabling this will not totally prevent users from inserting line breaks in the edit
-control, as the could e.g. copy and paste one.
+<p>Note that disabling this will not totally prevent users from inserting line breaks in the edit
+control, as the could e.g. copy and paste one.</p>
 </div>
 
 
@@ -1128,11 +1128,12 @@ The control is updated to show the mark.</p>
     <tbody>
       <tr>
         <td><a class="xref" href="Sdl.DesktopEditor.EditorApi.ITextMark.html">ITextMark</a></td>
-        <td><p>A reference to the added text mark.
-<p>
-If you need to change properties for a mark you should explicitly call <a class="xref" href="Sdl.DesktopEditor.EditorApi.IEditControl.html#Sdl_DesktopEditor_EditorApi_IEditControl_NotifyTextMarkChanged_Sdl_DesktopEditor_EditorApi_ITextMark_">NotifyTextMarkChanged(ITextMark)</a>
-to ensure that the updated mark properties are reflected in the control.
-</p>
+        <td><p>A reference to the added text mark.</p>
+<pre><code>        &lt;p&gt;
+        If you need to change properties for a mark you should explicitly call &lt;xref href=&quot;Sdl.DesktopEditor.EditorApi.IEditControl.NotifyTextMarkChanged(Sdl.DesktopEditor.EditorApi.ITextMark)&quot; data-throw-if-not-resolved=&quot;false&quot;&gt;&lt;/xref&gt;
+        to ensure that the updated mark properties are reflected in the control.
+        &lt;/p&gt;
+</code></pre>
 </td>
       </tr>
     </tbody>
@@ -1910,7 +1911,8 @@ folding, whether it has any content and whether that content is valid to display
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td><pre><code class="lang-csharp">true</code></pre> if the row will be displayed on screen.
+        <td><pre><code class="lang-csharp">true</code></pre>
+<p>if the row will be displayed on screen.</p>
 </td>
       </tr>
     </tbody>
