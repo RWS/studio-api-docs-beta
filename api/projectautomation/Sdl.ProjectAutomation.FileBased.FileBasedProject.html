@@ -3482,10 +3482,9 @@ settings too, thee need to be updated with a separate call to <a class="xref" hr
     </tbody>
   </table>
   <h5 id="Sdl_ProjectAutomation_FileBased_FileBasedProject_UpdateSettings_Sdl_Core_Settings_ISettingsBundle__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><pre><code>&lt;p&gt;The project settings will be completely replaced with the specified settings, so any settings not present in
-</code></pre>
-<p>the updated settings bundle will revert to their defaults.</p>
-<p>You can also override settings for a specific target language. See <a class="xref" href="Sdl.ProjectAutomation.FileBased.FileBasedProject.html#Sdl_ProjectAutomation_FileBased_FileBasedProject_UpdateSettings_Sdl_Core_Globalization_Language_Sdl_Core_Settings_ISettingsBundle_">UpdateSettings(Language, ISettingsBundle)</a>.</p>
+  <div class="markdown level1 remarks"><p>The project settings will be completely replaced with the specified settings, so any settings not present in
+the updated settings bundle will revert to their defaults.</p>
+	<p>You can also override settings for a specific target language. See <a class="xref" href="Sdl.ProjectAutomation.FileBased.FileBasedProject.html#Sdl_ProjectAutomation_FileBased_FileBasedProject_UpdateSettings_Sdl_Core_Globalization_Language_Sdl_Core_Settings_ISettingsBundle_">UpdateSettings(Language, ISettingsBundle)</a>.</p>
 </div>
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-condensed">
@@ -3564,8 +3563,12 @@ This can either be newly created termbase configuration object or one that was r
         <td><a class="xref" href="Sdl.ProjectAutomation.Core.TranslationProviderConfiguration.html">TranslationProviderConfiguration</a></td>
         <td><span class="parametername">translationProviderConfiguration</span></td>
         <td><p>The translation provider configuration. Note that you need to set
-<a class="xref" href="Sdl.ProjectAutomation.Core.TranslationProviderConfiguration.html#Sdl_ProjectAutomation_Core_TranslationProviderConfiguration_OverrideParent">OverrideParent</a> to <pre><code class="lang-csharp">true</code></pre> in order for the configuration to be used. If this is
-set to <pre><code class="lang-csharp">false</code></pre>, the project-wide translation provider configuration will be used instead (<a class="xref" href="Sdl.ProjectAutomation.FileBased.FileBasedProject.html#Sdl_ProjectAutomation_FileBased_FileBasedProject_GetTranslationProviderConfiguration">GetTranslationProviderConfiguration()</a>).
+<a class="xref" href="Sdl.ProjectAutomation.Core.TranslationProviderConfiguration.html#Sdl_ProjectAutomation_Core_TranslationProviderConfiguration_OverrideParent">OverrideParent</a> to</p>
+<pre><code class="lang-csharp">true</code></pre>
+<p>in order for the configuration to be used. If this is
+set to</p>
+<pre><code class="lang-csharp">false</code></pre>
+<p>, the project-wide translation provider configuration will be used instead (<a class="xref" href="Sdl.ProjectAutomation.FileBased.FileBasedProject.html#Sdl_ProjectAutomation_FileBased_FileBasedProject_GetTranslationProviderConfiguration">GetTranslationProviderConfiguration()</a>).</p>
 </td>
       </tr>
     </tbody>

@@ -392,11 +392,11 @@ no matter whether the range spans paragraph units or segments.
         document.ApplyQuickTagToActiveRange(quickTag);
     }
 }</code></pre>
-Note that you would typically want to group such operations into a single Undo command,
-e.g. by calling <a class="xref" href="Sdl.DesktopEditor.EditorApi.IUndoBuffer.html#Sdl_DesktopEditor_EditorApi_IUndoBuffer_BeginCompositeOperation_System_String_">BeginCompositeOperation(string)</a> and 
+<p>Note that you would typically want to group such operations into a single Undo command,
+e.g. by calling <a class="xref" href="Sdl.DesktopEditor.EditorApi.IUndoBuffer.html#Sdl_DesktopEditor_EditorApi_IUndoBuffer_BeginCompositeOperation_System_String_">BeginCompositeOperation(string)</a> and
 <a class="xref" href="Sdl.DesktopEditor.EditorApi.IUndoBuffer.html#Sdl_DesktopEditor_EditorApi_IUndoBuffer_EndCompositeOperation">EndCompositeOperation()</a>. One way to access
 the undo buffer is through <a class="xref" href="Sdl.DesktopEditor.EditorApi.IDocument.html#Sdl_DesktopEditor_EditorApi_IDocument_UndoBuffer">UndoBuffer</a>.
-</example>
+</p></example>
 </div>
 
 
