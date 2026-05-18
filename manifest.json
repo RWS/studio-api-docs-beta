@@ -29094,50 +29094,10 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "apiconcepts/releasenotes/tradosstudio2022.md",
+      "source_relative_path": "apiconcepts/releasenotes/tradosstudio2026.md",
       "output": {
         ".html": {
-          "relative_path": "apiconcepts/releasenotes/tradosstudio2022.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "apiconcepts/releasenotes/tradosstudio2022sr1.md",
-      "output": {
-        ".html": {
-          "relative_path": "apiconcepts/releasenotes/tradosstudio2022sr1.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "apiconcepts/releasenotes/tradosstudio2022sr2.md",
-      "output": {
-        ".html": {
-          "relative_path": "apiconcepts/releasenotes/tradosstudio2022sr2.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "apiconcepts/releasenotes/tradosstudio2024.md",
-      "output": {
-        ".html": {
-          "relative_path": "apiconcepts/releasenotes/tradosstudio2024.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "apiconcepts/releasenotes/tradosstudio2024sr1.md",
-      "output": {
-        ".html": {
-          "relative_path": "apiconcepts/releasenotes/tradosstudio2024sr1.html"
+          "relative_path": "apiconcepts/releasenotes/tradosstudio2026.html"
         }
       },
       "version": ""
