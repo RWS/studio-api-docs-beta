@@ -86,57 +86,11 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="release-notes-for-varproductnamewithedition">Release Notes for Trados Studio 2026 Release</h1>
 
-<h1 id="trados-studio-automation">Trados Studio Automation</h1>
-<p>The changes are included in <code>Sdl.TranslationStudioAutomation.IntegrationApi</code>.</p>
-<h2 id="classes">Classes</h2>
-<h3 id="added-classes">Added Classes</h3>
-<ul>
-<li><a href="../../api/integration/Sdl.TranslationStudioAutomation.IntegrationApi.EditDistanceComputeParams.html">EditDistanceComputeParams</a></li>
-<li><a href="../../api/integration/Sdl.TranslationStudioAutomation.IntegrationApi.SegmentOperations.html">SegmentOperations</a>
-<ul>
-<li>New method <code>Task&lt;EditDistance&gt; GetEditDistanceAsync(ISegment original, ISegment updated, CultureCode cultureCode, EditDistanceComputeParams computeParams)</code> to compute the edit distance between two segments.</li>
-<li>New method <code>Task&lt;WordCounts&gt; GetWordCountAsync(ISegment segment, CultureCode cultureCode)</code>to retrieve the word count for a given segment and culture.</li>
-</ul>
-</li>
-<li><a href="../../api/integration/Sdl.TranslationStudioAutomation.IntegrationApi.Editor.TermRecognitionResults.TermRecognitionResultsController.html">TermRecognitionResultsController</a> to return the results displayed in Studio TermRecognition view.</li>
-</ul>
-<h3 id="updated-classes">Updated Classes</h3>
-<ul>
-<li>Added event handler <code>TranslationFinished</code> in <a href="../../api/integration/Sdl.TranslationStudioAutomation.IntegrationApi.Editor.TranslationResults.TranslationResultsController.html">TranslationResultsController</a> to identify when a translation is done.</li>
-</ul>
-<h2 id="interfaces">Interfaces</h2>
-<h3 id="added-interfaces">Added Interfaces</h3>
-<ul>
-<li><a href="../../api/integration/Sdl.TranslationStudioAutomation.IntegrationApi.Editor.TermRecognitionResults.ITermRecognitionResultsController.html">ITermRecognitionResultsController</a></li>
-</ul>
-<h3 id="updated-interfaces">Updated Interfaces</h3>
-<ul>
-<li>Added new event handler <code>SegmentTranslated</code> in <a href="../../api/integration/Sdl.TranslationStudioAutomation.IntegrationApi.IStudioDocument.html">IStudioDocument</a> to identify when an Apply Translation action is executed.</li>
-<li>Added new event handler <code>TranslationFinished</code> in <a href="../../api/integration/Sdl.TranslationStudioAutomation.IntegrationApi.Editor.TranslationResults.ITranslationResultsController.html">ITranslationResultsController</a> to identify when a translation is done.</li>
-</ul>
-<h1 id="terminology-provider">Terminology Provider</h1>
-<p>The following changes are included in <code>Sdl.Terminology.TerminologyProvider.Core</code>.</p>
-<h2 id="descriptivefield"><a href="../../api/terminology/Sdl.Terminology.TerminologyProvider.Core.DescriptiveField.html">DescriptiveField</a></h2>
-<ul>
-<li>Added new property <code>ShowInUI</code> to determine whether the field should be shown in the UI (e.g. term recognition results window).</li>
-</ul>
-<h2 id="iterminologyexport"><a href="../../api/terminology/Sdl.Terminology.TerminologyProvider.Core.ITerminologyExport.html">ITerminologyExport</a></h2>
-<ul>
-<li>Added new method <code>void Export(TerminologyExportType exportFormatType, string path, Dictionary&lt;string, string&gt; exportProperties)</code> to perform a termbase export to a specific format.</li>
-</ul>
-<h2 id="iterminologyimport"><a href="../../api/terminology/Sdl.Terminology.TerminologyProvider.Core.ITerminologyImport.html">ITerminologyImport</a></h2>
-<ul>
-<li>Added new method <code>void Import(TerminologyImportType importType, List&lt;string&gt; importFiles, Dictionary&lt;string, string&gt; importProperties = null)</code> to import multiple files in a single call.</li>
-</ul>
-<h2 id="termbaseexportexception"><a href="../../api/terminology/Sdl.Terminology.TerminologyProvider.Core.Exceptions.TermbaseExportException.html">TermbaseExportException</a></h2>
-<ul>
-<li>Added new exception to be used when a termbase export fails.</li>
-</ul>
-<h1 id="editor-api-changes">Editor API changes</h1>
-<p>The following changes are included in <code>Sdl.DesktopEditor.EditorApi</code>:</p>
-<ul>
-<li>Added new interface <a href="../../api/integration/Sdl.DesktopEditor.EditorApi.IInteractiveAccessibleCustomColumn.html">IInteractiveAccessibleCustomColumn</a> that exposes Accessibility Details.</li>
-</ul>
+<p>As part of our ongoing efforts to simplify and streamline the Trados Studio development experience, we are revisiting the existing Trados Studio APIs. During this process, several classes, interfaces, and methods that were identified as redundant or unnecessarily complex have been removed.</p>
+<p>Looking ahead, we plan to gradually phase out portions of the current API set and replace them with APIs aligned with the new Trados Studio architecture. This transition is intended to improve performance, provide a consistent developer experience, and simplify plugin integration. Our goal is to make this transition as smooth as possible, and we will provide ample notice whenever an API is deprecated and before it is eventually removed.</p>
+<p>In addition, direct interaction with Trados GroupShare resources will be limited. For all server-based resource interactions, we strongly recommend using the GroupShare API Toolkit, which is designed specifically for secure and efficient integration with GroupShare services. You can find resources <a href="https://developers.rws.com/groupshare-api-docs/apiconcepts/overview.html">here</a>.</p>
+<p>We value feedback from our developer community. Share your thoughts, implementation experiences, and questions regarding these changes on the <a href="https://community.rws.com/developers-more/trados-portfolio/trados-studio-developers/f/sdk_qa">Trados Studio Developers Forum</a>. Your input will help refine the APIs and ensure a smoother transition to the new architecture.</p>
+<p>You can find the complete set of changes in the <a href="../../articles/hints_tips/Update_Plugins/how_to_update_plugins_to_trados_studio.html">How to Upgrade section of the documentation</a>, which includes detailed information on the removed APIs, their replacements, and guidance on how to update your existing plugins. We encourage all developers to review this section carefully to understand the implications of these changes and to plan for necessary updates to their plugins.</p>
 
 </article>
           </div>
@@ -146,7 +100,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/RWS/studio-api-docs-beta/blob/main/apiconcepts/releasenotes/tradosstudio2024.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/RWS/studio-api-docs-beta/blob/main/apiconcepts/releasenotes/tradosstudio2026.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
