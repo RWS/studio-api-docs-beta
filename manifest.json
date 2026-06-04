@@ -17461,6 +17461,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/terminology/Sdl.Terminology.TerminologyProvider.Core.CreateTermbaseRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/terminology/Sdl.Terminology.TerminologyProvider.Core.CreateTermbaseRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sdl.Terminology.TerminologyProvider.Core.CreateTermbaseRequest",
+      "Summary": "<p sourcefile=\"api/terminology/Sdl.Terminology.TerminologyProvider.Core.CreateTermbaseRequest.yml\" sourcestartlinenumber=\"1\">Represents a request to create a new termbase, including its name, path, description, and languages.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/terminology/Sdl.Terminology.TerminologyProvider.Core.Definition.yml",
       "output": {
         ".html": {
@@ -17895,6 +17909,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/terminology/Sdl.Terminology.TerminologyProvider.Core.OperationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/terminology/Sdl.Terminology.TerminologyProvider.Core.OperationResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sdl.Terminology.TerminologyProvider.Core.OperationResult",
+      "Summary": "<p sourcefile=\"api/terminology/Sdl.Terminology.TerminologyProvider.Core.OperationResult.yml\" sourcestartlinenumber=\"1\">Represents the result of an operation, including its success status and any error message.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/terminology/Sdl.Terminology.TerminologyProvider.Core.SearchMode.yml",
       "output": {
         ".html": {
@@ -17920,6 +17948,34 @@
       "IsMRef": true,
       "Title": "Sdl.Terminology.TerminologyProvider.Core.SearchResult",
       "Summary": "<p sourcefile=\"api/terminology/Sdl.Terminology.TerminologyProvider.Core.SearchResult.yml\" sourcestartlinenumber=\"1\">Termbase search results.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/terminology/Sdl.Terminology.TerminologyProvider.Core.Termbase.IStudioTermbase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/terminology/Sdl.Terminology.TerminologyProvider.Core.Termbase.IStudioTermbase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sdl.Terminology.TerminologyProvider.Core.Termbase.IStudioTermbase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/terminology/Sdl.Terminology.TerminologyProvider.Core.Termbase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/terminology/Sdl.Terminology.TerminologyProvider.Core.Termbase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sdl.Terminology.TerminologyProvider.Core.Termbase",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -22458,6 +22514,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemory.TranslationUnitBcmInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemory.TranslationUnitBcmInformation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sdl.LanguagePlatform.TranslationMemory.TranslationUnitBcmInformation",
+      "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemory.TranslationUnitBcmInformation.yml\" sourcestartlinenumber=\"1\">Represents information about a bcm document used to create a translation unit\ntitle.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemory.TranslationUnitFormat.yml",
       "output": {
         ".html": {
@@ -26594,16 +26664,6 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "apiconcepts/filetypesupport/images/TTXandITD.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "apiconcepts/filetypesupport/images/TTXandITD.jpg"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
       "source_relative_path": "apiconcepts/filetypesupport/images/Tag01.jpg",
       "output": {
         "resource": {
@@ -27214,16 +27274,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "apiconcepts/filetypesupport/saving_to_different_file_types.md",
-      "output": {
-        ".html": {
-          "relative_path": "apiconcepts/filetypesupport/saving_to_different_file_types.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "apiconcepts/filetypesupport/segmentation_hints.md",
       "output": {
         ".html": {
@@ -27468,16 +27518,6 @@
       "output": {
         ".html": {
           "relative_path": "apiconcepts/filetypesupport/what_a_file_type_plugin_must_do.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "apiconcepts/filetypesupport/what_can_you_do_with_the_file_type_support_sdk.md",
-      "output": {
-        ".html": {
-          "relative_path": "apiconcepts/filetypesupport/what_can_you_do_with_the_file_type_support_sdk.html"
         }
       },
       "version": ""
@@ -31217,16 +31257,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "apiconcepts/translationmemory/what_you_can_do_with_this_sdk.md",
-      "output": {
-        ".html": {
-          "relative_path": "apiconcepts/translationmemory/what_you_can_do_with_this_sdk.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "apiconcepts/translationmemory/working_with_database_servers_and_containers.md",
       "output": {
         ".html": {
@@ -31601,16 +31631,6 @@
       "output": {
         ".html": {
           "relative_path": "apiconcepts/verification/retrieve_the_settings_values.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "apiconcepts/verification/the_resources_file.md",
-      "output": {
-        ".html": {
-          "relative_path": "apiconcepts/verification/the_resources_file.html"
         }
       },
       "version": ""
@@ -32207,16 +32227,6 @@
         },
         ".json": {
           "relative_path": "toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "writing_guidelines.md",
-      "output": {
-        ".html": {
-          "relative_path": "writing_guidelines.html"
         }
       },
       "version": ""
