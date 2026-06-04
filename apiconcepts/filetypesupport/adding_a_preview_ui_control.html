@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Adding a Preview UI Control </title>
+      <title>Adding a preview UI control </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Adding a Preview UI Control ">
+      <meta name="title" content="Adding a preview UI control ">
     
     
       <link rel="shortcut icon" href="../../favicon.ico">
@@ -84,14 +84,15 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="adding-a-preview-ui-control">Adding a Preview UI Control</h1>
+<h1 id="adding-a-preview-ui-control">Adding a preview UI control</h1>
 
-<p>For displaying the document preview your filter requires a suitable control element.</p>
-<h2 id="add-a-web-browser-control">Add a Web Browser Control</h2>
-<p>When implementing the static internal preview, we simply leveraged the built-in Web browser control of Trados Studio (see <a href="static_modifying_the_file_type_component_builder.html">Modifying the File Type Component Builder</a>). Depending on the native file format that needs to be displayed, a different control might be required. For example, for DOC files Trados Studio uses a Microsoft Word Viewer control. In this exercise, we are (once again) going to use a Web browser control. However, this time we will not leverage the built-in Web browser control, since we would like to demonstrate how to add and configure a custom control element.</p>
-<p>Start by adding a user control called e.g. <strong>InternalPreviewControl.cs</strong> to your project. From the Visual Studio toolbox add a Web browser control, and assign the name <code>webBrowserControl</code> to it.</p>
-<h2 id="implement-the-preview-control-functionality">Implement the Preview Control Functionality</h2>
-<p>For your preview control to be able to respond to events such as the user clicking a segment in the editor, scrolling to a segment, etc., your control needs to implement the following code:</p>
+<p>Your filter needs a control that can display the document preview.</p>
+<h2 id="add-a-web-browser-control">Add a web browser control</h2>
+<p>The static internal preview uses the built-in web browser control in Trados Studio. See <a href="static_modifying_the_file_type_component_builder.html">Modifying the File Type Component Builder</a>. Other native file formats may require different controls. For example, DOC files use a Microsoft Word Viewer control.</p>
+<p>This sample uses a web browser control again, but this time it adds and configures a custom control instead of reusing the built-in one.</p>
+<p>Start by adding a user control such as <strong>InternalPreviewControl.cs</strong> to your project. Then add a web browser control from the Visual Studio toolbox and name it <code>webBrowserControl</code>.</p>
+<h2 id="implement-the-preview-control-functionality">Implement the preview control functionality</h2>
+<p>To respond to events such as clicking a segment in the editor or scrolling to a segment, implement the following code in your preview control:</p>
 <div class="tabGroup" id="tabgroup_1">
 <ul role="tablist">
 <li role="presentation">
@@ -283,12 +284,16 @@ namespace Sdk.FileTypeSupport.Samples.SimpleText.Preview
     }
 }
 </code></pre>
-</section>
-</div>
-
+<h2 id="see-also">See also</h2>
+<ul>
+<li><a href="static_modifying_the_file_type_component_builder.html">Modifying the File Type Component Builder</a></li>
+<li><a href="adding_a_preview_controller.html">Adding a Preview Controller</a></li>
+</ul>
 <div class="NOTE">
 <h5>Note</h5>
 <p>This content may be out-of-date. To check the latest information on this topic, inspect the libraries using the Visual Studio Object Browser.</p>
+</div>
+</section>
 </div>
 
 </article>

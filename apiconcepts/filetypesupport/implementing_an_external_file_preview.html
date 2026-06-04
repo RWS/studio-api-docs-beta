@@ -86,14 +86,14 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="implementing-an-external-file-preview">Implementing an External File Preview</h1>
 
-<p>In this chapter you will learn how to add a simple document preview function based on the standard Windows Notepad application.</p>
+<p>This section explains how to add a simple document preview that uses Windows Notepad.</p>
 <h2 id="extend-the-file-type-component-builder">Extend the File Type Component Builder</h2>
-<p>Our aim is to enable the file type plug-in to generate an ad-hoc preview in an external application. This allows users to view the file in its native format.</p>
-<p>When processing DOC files, for example, Trados Studio launches Microsoft Word as external preview application. Since we are dealing with a simple text format, we can use a common text editor such Notepad as external preview application.</p>
-<p>What makes implementing the external preview easy is the fact that the application logic required for generating an external preview already exists in our sample file type plug-in - to be more precise, in the file writer class, which you implemented in the previous chapter (see <a href="implementing_the_file_writer.html">Implementing the File Writer</a>). Therefore, all you need to do is register the external preview application in the File Type Component Builder.</p>
-<p>First, we recommend that you add the name of the preview application to the resources file of your project properties. This is the application name that users will see when accessing the external preview menu command in Trados Studio.</p>
+<p>Enable the file type plug-in to generate an ad-hoc preview in an external application. This lets users view the file in its native format.</p>
+<p>For example, when users preview DOC files, Trados Studio launches Microsoft Word as the external preview application. Because this sample uses a simple text format, Notepad works well as the external preview application.</p>
+<p>The sample file type plug-in already contains the logic required to generate an external preview. The file writer class that you created in the previous chapter provides that logic. See <a href="implementing_the_file_writer.html">Implementing the File Writer</a>. To enable the preview, register the external preview application in the File Type Component Builder.</p>
+<p>First, add the name of the preview application to the resource file in your project properties. Users will see this name when they access the external preview command in Trados Studio.</p>
 <p><img src="images/ExternalPreview_Name.jpg" alt="ExternalPreview_Name"></p>
-<p>Now add the method shown below to the File Type Component Builder. Note how the external preview application name is referenced. Also note that this implements the external preview both for the source and the target content.</p>
+<p>Now add the following method to the File Type Component Builder. The example references the external preview application name from resources. It also enables the external preview for both source and target content.</p>
 <div class="tabGroup" id="tabgroup_1">
 <ul role="tablist">
 <li role="presentation">
@@ -128,7 +128,7 @@ previewFactory.GetPreviewSets(null).Add(externalPreviewSet);
 </section>
 </div>
 
-<p>Now change the File Type Component Builder to include the external preview. Here the Microsoft Notepad application is used by <code>GenericExternalPreviewApplication</code></p>
+<p>Now update the File Type Component Builder to include the external preview. In this example, <code>GenericExteralPreviewApplication</code> launches Microsoft Notepad.</p>
 <div class="tabGroup" id="tabgroup_2">
 <ul role="tablist">
 <li role="presentation">
@@ -151,12 +151,12 @@ previewFactory.GetPreviewSets(null).Add(externalPreviewSet);
 </section>
 </div>
 
-<p>You will also need to add an assembly reference to Sdl.FileTypeSupport.Framework.PreviewControls.</p>
+<p>Add an assembly reference to <code>Sdl.FileTypeSupport.Framework.PreviewControls</code>.</p>
 <div class="NOTE">
 <h5>Note</h5>
-<p>You can also pass an empty string to the ApplicationPath property. In this case the external preview will call the application that is registered in the OS for this particular file type.</p>
+<p>You can also pass an empty string to the <code>ApplicationPath</code> property. In that case, the external preview calls the application that the operating system registers for that file type.</p>
 </div>
-<p>When accessing the <strong>File</strong> &gt; <strong>View</strong> In menu command of Trados Studio you should now see the following:</p>
+<p>When you open <strong>File</strong> &gt; <strong>View In</strong> in Trados Studio, you should now see the following option:</p>
 <p><img src="images/PreviewApplication.jpg" alt="PreviewApplication"></p>
 <div class="NOTE">
 <h5>Note</h5>
