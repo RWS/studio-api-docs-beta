@@ -27954,16 +27954,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "apiconcepts/integration/integration_samples.md",
-      "output": {
-        ".html": {
-          "relative_path": "apiconcepts/integration/integration_samples.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "apiconcepts/integration/overview.md",
       "output": {
         ".html": {
@@ -28034,36 +28024,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "apiconcepts/integration/trados_studio_application_initializers.md",
-      "output": {
-        ".html": {
-          "relative_path": "apiconcepts/integration/trados_studio_application_initializers.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "apiconcepts/integration/trados_studio_autosuggest_provider.md",
-      "output": {
-        ".html": {
-          "relative_path": "apiconcepts/integration/trados_studio_autosuggest_provider.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "apiconcepts/integration/trados_studio_command_processor.md",
-      "output": {
-        ".html": {
-          "relative_path": "apiconcepts/integration/trados_studio_command_processor.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "apiconcepts/integration/trados_studio_controllers.md",
       "output": {
         ".html": {
@@ -28118,26 +28078,6 @@
       "output": {
         ".html": {
           "relative_path": "apiconcepts/integration/using_trados_studio_projectscontroller.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "apiconcepts/integration/what_the_filter_should_do.md",
-      "output": {
-        ".html": {
-          "relative_path": "apiconcepts/integration/what_the_filter_should_do.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "apiconcepts/integration/what_you_can_do_with_the_integration_API.md",
-      "output": {
-        ".html": {
-          "relative_path": "apiconcepts/integration/what_you_can_do_with_the_integration_API.html"
         }
       },
       "version": ""
