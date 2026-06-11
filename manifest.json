@@ -29094,10 +29094,40 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "apiconcepts/terminology/creating_a_file_based_termbase.md",
+      "output": {
+        ".html": {
+          "relative_path": "apiconcepts/terminology/creating_a_file_based_termbase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "apiconcepts/terminology/displaying_entry_content.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/terminology/displaying_entry_content.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "apiconcepts/terminology/file_based_termbase_introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "apiconcepts/terminology/file_based_termbase_introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "apiconcepts/terminology/images/Cd-Entry Dependencies.png",
+      "output": {
+        "resource": {
+          "relative_path": "apiconcepts/terminology/images/Cd-Entry Dependencies.png"
         }
       },
       "version": ""
@@ -29488,6 +29518,16 @@
       "output": {
         "resource": {
           "relative_path": "apiconcepts/terminology/images/term_search.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "apiconcepts/terminology/managing_terms_in_a_file_based_termbase.md",
+      "output": {
+        ".html": {
+          "relative_path": "apiconcepts/terminology/managing_terms_in_a_file_based_termbase.html"
         }
       },
       "version": ""
