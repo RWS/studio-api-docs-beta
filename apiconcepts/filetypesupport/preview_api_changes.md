@@ -12,15 +12,15 @@ Plugins did this by implementing `BuildPreviewControl` or
 `BuildPreviewApplication` on the File Type Component Builder and returning a
 custom `UserControl` or a `GenericExternalPreviewApplication` instance.
  
-Starting with Studio 2026, **Studio ships a set of built-in preview UIs**.
+Starting with Var:ProductName 2026, **Var:ProductName ships a set of built-in preview UIs**.
 File types declare which built-in UI they want by placing a recognised
-Preview ID in their `PreviewSet` definition. Studio maps that ID to the
+Preview ID in their `PreviewSet` definition. Var:ProductName maps that ID to the
 corresponding control at runtime. Plugins no longer build, own, or register
 preview UI components.
  
 ## Deprecated API surface
  
-The following methods are **deprecated as of Studio 2026** and are no longer
+The following methods are **deprecated as of Var:ProductName 2026** and are no longer
 called by the host application:
  
 | Deprecated member | Previously used for |
@@ -30,13 +30,13 @@ called by the host application:
 | `IFileTypeComponentBuilder.BuildPreviewControl` | Same as above, on the component builder |
 | `IFileTypeComponentBuilder.BuildPreviewApplication` | Same as above, on the component builder |
  
-Implementing these methods in a plugin targeting Studio 2026 is harmless —
+Implementing these methods in a plugin targeting Var:ProductName 2026 is harmless —
 they are ignored at runtime — but they should be removed to keep the
 codebase clean.
  
 ## Built-in Preview IDs
  
-Your `PreviewSet` must reference one of the following IDs. Studio maps each
+Your `PreviewSet` must reference one of the following IDs. Var:ProductName maps each
 ID to a built-in control:
  
 | Preview ID | Description |
@@ -48,12 +48,12 @@ ID to a built-in control:
  
 > [!NOTE]
 > Using a Preview ID that is not in this list is not yet supported. Custom
-> third-party preview UIs cannot be registered in Studio 2026.
+> third-party preview UIs cannot be registered in Var:ProductName 2026.
  
 ## Migration checklist
  
 Use this checklist when updating an existing file type plugin to target
-Studio 2026.
+Var:ProductName 2026.
  
 ### Internal (control-based) previews
  

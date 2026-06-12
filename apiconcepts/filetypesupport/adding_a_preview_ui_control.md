@@ -7,26 +7,26 @@
 > File types no longer provide their own preview UI controls. The methods
 > `IFileTypeDefinition.BuildPreviewControl` and
 > `IFileTypeComponentBuilder.BuildPreviewControl` are **deprecated and no
-> longer called by Studio**. Custom `UserControl` classes (such as
+> longer called by Var:ProductName**. Custom `UserControl` classes (such as
 > `InternalPreviewControl.cs`) and their companion controller classes (such
 > as `InternalPreviewController.cs`) are not needed for file types targeting
-> Studio 2026 or later.
+> Var:ProductName 2026 or later.
 >
 > If you maintain an existing file type that implements these methods, they
 > will be silently ignored at runtime. See [Preview API changes in Trados
-> Studio 2026](preview_api_changes_quantum.md) for the migration checklist.
+> Var:ProductName 2026](preview_api_changes_quantum.md) for the migration checklist.
  
 ## Overview
  
-Starting with Var:ProductName 2026, Studio ships a set of
+Starting with Var:ProductName 2026, Var:ProductName ships a set of
 **built-in preview UIs**. Your file type no longer builds or registers a
 custom control. Instead, it declares which built-in UI it wants by
 referencing a recognised **Preview ID** in its `PreviewSet` definition, and
-Studio handles the rest.
+Var:ProductName handles the rest.
  
 Your filter is still responsible for generating the preview *content* — the
 output file written to the temporary folder. How that content is displayed
-is now entirely managed by Studio.
+is now entirely managed by Var:ProductName.
  
 ## Built-in Preview IDs
  
@@ -40,7 +40,7 @@ Use one of the following IDs when configuring your `PreviewSet`:
 | `ExternalHtml` | Opens the preview file in the default browser. |
  
 > [!NOTE]
-> Using a preview UI that is not in this list is not yet supported in Studio
+> Using a preview UI that is not in this list is not yet supported in Var:ProductName
 > 2026. Third-party preview controls cannot be registered.
  
 ## Register a built-in preview in the File Type Component Builder

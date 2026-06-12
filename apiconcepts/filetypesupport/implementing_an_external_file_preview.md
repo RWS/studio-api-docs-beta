@@ -5,15 +5,15 @@
 > **Breaking change in Var:ProductName 2026**
 >
 > The `BuildPreviewApplication` method on `IFileTypeComponentBuilder` is
-> **deprecated and no longer called by Studio**. The
+> **deprecated and no longer called by Var:ProductName**. The
 > `GenericExternalPreviewApplication` class and the
 > `Sdl.FileTypeSupport.Framework.PreviewControls` assembly reference are no
-> longer needed. Remove them from any file type that targets Studio 2026 or
+> longer needed. Remove them from any file type that targets Var:ProductName 2026 or
 > later.
 >
 > The `PreviewSet` registration pattern shown below still applies, but the
-> Preview ID must now be one of the **built-in IDs** recognised by Studio.
-> See [Preview API changes in Trados Studio 2026](preview_api_changes.md)
+> Preview ID must now be one of the **built-in IDs** recognised by Var:ProductName.
+> See [Preview API changes in Trados Var:ProductName 2026](preview_api_changes.md)
 > for the full list of built-in IDs and a migration checklist.
  
 ## Overview
@@ -61,8 +61,8 @@ if (targetAppPreviewType != null)
 previewFactory.GetPreviewSets(null).Add(externalPreviewSet);
 ```
  
-`ExternalPreview` is a built-in Studio preview ID. When a user triggers the
-preview, Studio opens the generated file in the application registered in
+`ExternalPreview` is a built-in Var:ProductName preview ID. When a user triggers the
+preview, Var:ProductName opens the generated file in the application registered in
 the OS for that file extension — the same behaviour that the old
 `ApplicationPath = ""` shortcut produced, now as the only and default
 behaviour.
