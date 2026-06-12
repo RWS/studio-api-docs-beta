@@ -27194,6 +27194,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "apiconcepts/filetypesupport/preview_api_changes.md",
+      "output": {
+        ".html": {
+          "relative_path": "apiconcepts/filetypesupport/preview_api_changes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "apiconcepts/filetypesupport/previewing_files.md",
       "output": {
         ".html": {
