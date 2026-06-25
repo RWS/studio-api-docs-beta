@@ -86,9 +86,9 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="setting-the-project-information">Setting the Project Information</h1>
 
-<p>In this chapter you will learn how to programmatically create a simple project, and define the general project properties such as name, description, due date, etc.</p>
+<p>This chapter demonstrates how to programmatically create a project and define its general properties�name, description, due date, and more.</p>
 <h2 id="create-the-project">Create the Project</h2>
-<p>Start by implementing a function called <code> CreateProject</code>. Create a file-based project object called <code>newProject</code> based on the class <a href="../../api%5Cprojectautomation%5CSdl.ProjectAutomation.FileBased.FileBasedProject.yml">FileBasedProject</a>. In our example we provide the project properties as parameter. We recommend that you generate the project properties through a separate helper function called e.g. GetProjectInfo as shown below:</p>
+<p>Start by implementing a function called <code> CreateProject</code>. Create a file-based project object called <code>newProject</code> based on the class <a href="../../api%5Cprojectautomation%5CSdl.ProjectAutomation.FileBased.FileBasedProject.yml">FileBasedProject</a> class. Pass the project properties as a parameter�we recommend generating them through a separate helper function such as <code>GetProjectInfo</code>:</p>
 <div class="tabGroup" id="tabgroup_1">
 <ul role="tablist">
 <li role="presentation">
@@ -235,36 +235,19 @@ After running the above code you should already see a result in the projects fol
 
 <pre><code class="lang-CS">public ProjectInfo GetProjectInfo()
 {
-    #region &quot;InfoObject&quot;
     ProjectInfo info = new ProjectInfo();
-    #endregion
-
-    #region &quot;GeneralInfo&quot;
     info.Name = &quot;My first project&quot;;
     info.Description = &quot;This is a programmatically created project.&quot;;
     info.DueDate = DateTime.Now.AddDays(3);
-    #endregion
-
-    #region &quot;ProjectFolder&quot;
     string localProjectFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments).ToString() +
         Path.DirectorySeparatorChar + $@&quot;{Versioning.Versions.StudioDocumentsFolderName}\Projects\&quot; + info.Name;
 
     info.LocalProjectFolder = localProjectFolder;
-    #endregion
-
-    #region &quot;SourceLanguage&quot;
     Language srcLang = new Language(CultureInfo.GetCultureInfo(&quot;en-US&quot;));
     info.SourceLanguage = srcLang;
-    #endregion
-
-    #region &quot;TargetLanguages&quot;
     Language[] trgLangs = new Language[] { new Language(CultureInfo.GetCultureInfo(&quot;de-DE&quot;)), new Language(CultureInfo.GetCultureInfo(&quot;fr-FR&quot;)) };
     info.TargetLanguages = trgLangs;
-    #endregion
-
-    #region &quot;ReturnInfo&quot;
     return info;
-    #endregion
 }
 
 </code></pre>
