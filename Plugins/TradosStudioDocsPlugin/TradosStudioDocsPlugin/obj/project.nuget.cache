@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "m4/+hiC6mIc=",
+  "success": true,
+  "projectFilePath": "D:\\code\\github\\studioapi\\studio-api-docs-beta\\Plugins\\TradosStudioDocsPlugin\\TradosStudioDocsPlugin\\TradosStudioDocsPlugin.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\david.watson\\.nuget\\packages\\docfx.common\\2.78.5\\docfx.common.2.78.5.nupkg.sha512",
+    "C:\\Users\\david.watson\\.nuget\\packages\\docfx.plugins\\2.78.5\\docfx.plugins.2.78.5.nupkg.sha512",
+    "C:\\Users\\david.watson\\.nuget\\packages\\docfx.yamlserialization\\2.78.5\\docfx.yamlserialization.2.78.5.nupkg.sha512",
+    "C:\\Users\\david.watson\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512",
+    "C:\\Users\\david.watson\\.nuget\\packages\\spectre.console\\0.54.0\\spectre.console.0.54.0.nupkg.sha512",
+    "C:\\Users\\david.watson\\.nuget\\packages\\system.composition\\9.0.3\\system.composition.9.0.3.nupkg.sha512",
+    "C:\\Users\\david.watson\\.nuget\\packages\\system.composition.attributedmodel\\9.0.3\\system.composition.attributedmodel.9.0.3.nupkg.sha512",
+    "C:\\Users\\david.watson\\.nuget\\packages\\system.composition.convention\\9.0.3\\system.composition.convention.9.0.3.nupkg.sha512",
+    "C:\\Users\\david.watson\\.nuget\\packages\\system.composition.hosting\\9.0.3\\system.composition.hosting.9.0.3.nupkg.sha512",
+    "C:\\Users\\david.watson\\.nuget\\packages\\system.composition.runtime\\9.0.3\\system.composition.runtime.9.0.3.nupkg.sha512",
+    "C:\\Users\\david.watson\\.nuget\\packages\\system.composition.typedparts\\9.0.3\\system.composition.typedparts.9.0.3.nupkg.sha512",
+    "C:\\Users\\david.watson\\.nuget\\packages\\yamldotnet\\16.3.0\\yamldotnet.16.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

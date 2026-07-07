@@ -14047,20 +14047,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/integration/Sdl.TranslationStudioAutomation.IntegrationApi.Actions.LanguageCloudAction.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/integration/Sdl.TranslationStudioAutomation.IntegrationApi.Actions.LanguageCloudAction.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.TranslationStudioAutomation.IntegrationApi.Actions.LanguageCloudAction",
-      "Summary": "<p sourcefile=\"api/integration/Sdl.TranslationStudioAutomation.IntegrationApi.Actions.LanguageCloudAction.yml\" sourcestartlinenumber=\"1\">Implements the new project action.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/integration/Sdl.TranslationStudioAutomation.IntegrationApi.Actions.NewProjectAction.yml",
       "output": {
         ".html": {
@@ -17319,6 +17305,20 @@
       "IsMRef": true,
       "Title": "Sdl.ProjectAutomation.Settings.ReturningPackageSettings",
       "Summary": "<p sourcefile=\"api/projectautomation/Sdl.ProjectAutomation.Settings.ReturningPackageSettings.yml\" sourcestartlinenumber=\"1\">Settings that relate to the return package when the create project package is created.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/projectautomation/Sdl.ProjectAutomation.Settings.ScanSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/projectautomation/Sdl.ProjectAutomation.Settings.ScanSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Sdl.ProjectAutomation.Settings.ScanSettings",
+      "Summary": "<p sourcefile=\"api/projectautomation/Sdl.ProjectAutomation.Settings.ScanSettings.yml\" sourcestartlinenumber=\"1\">Settings group class for the Scan automatic task settings.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -23046,20 +23046,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.DatabaseServerPermissions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.DatabaseServerPermissions.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.DatabaseServerPermissions",
-      "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.DatabaseServerPermissions.yml\" sourcestartlinenumber=\"1\">Database server reference permissions.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.DefaultLanguageResourceProvider.yml",
       "output": {
         ".html": {
@@ -23634,20 +23620,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.PropertyValueValidator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.PropertyValueValidator.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.PropertyValueValidator",
-      "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.PropertyValueValidator.yml\" sourcestartlinenumber=\"1\">Class used to Validate a property value.s</p>\n"
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.ProviderStatusInfo.yml",
       "output": {
         ".html": {
@@ -23659,20 +23631,6 @@
       "IsMRef": true,
       "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.ProviderStatusInfo",
       "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.ProviderStatusInfo.yml\" sourcestartlinenumber=\"1\">Represents information about the status of a translation provider.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.RemoteTranslationMemory.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.RemoteTranslationMemory.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.RemoteTranslationMemory",
-      "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.RemoteTranslationMemory.yml\" sourcestartlinenumber=\"1\">Base class used by ServerBasedTranslationMemory and CloudBasedTranslationMemory</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -23900,20 +23858,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.TranslationMemoryContainerPermissions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.TranslationMemoryContainerPermissions.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.TranslationMemoryContainerPermissions",
-      "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.TranslationMemoryContainerPermissions.yml\" sourcestartlinenumber=\"1\">Translation memory container permissions</p>\n"
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.TranslationMemoryExporter.yml",
       "output": {
         ".html": {
@@ -23925,20 +23869,6 @@
       "IsMRef": true,
       "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.TranslationMemoryExporter",
       "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.TranslationMemoryExporter.yml\" sourcestartlinenumber=\"1\">This class implements exporting translation units into TMX files.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.TranslationMemoryFieldsPermissions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.TranslationMemoryFieldsPermissions.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.TranslationMemoryFieldsPermissions",
-      "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.TranslationMemoryFieldsPermissions.yml\" sourcestartlinenumber=\"1\">Permissions for language resources in a TM.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -24205,496 +24135,6 @@
       "IsMRef": true,
       "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.TranslationUnitPermissions",
       "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.TranslationUnitPermissions.yml\" sourcestartlinenumber=\"1\">Translation unit permissions.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.AbstractTranslationMemoryCreator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.AbstractTranslationMemoryCreator.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.AbstractTranslationMemoryCreator",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.BaseTranslationMemoryMigrationManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.BaseTranslationMemoryMigrationManager.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.BaseTranslationMemoryMigrationManager",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IBaseTranslationMemoryMigrationManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IBaseTranslationMemoryMigrationManager.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IBaseTranslationMemoryMigrationManager",
-      "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IBaseTranslationMemoryMigrationManager.yml\" sourcestartlinenumber=\"1\">Represents the entry point to the translation memory migration API and the provided functionality.\nIt provides methods to create a migration project (<xref href=\"Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IMigrationProject\" data-throw-if-not-resolved=\"false\"></xref>), and obtain\nrepresentations of various legacy translation memories (<xref href=\"Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ILegacyTranslationMemory\" data-throw-if-not-resolved=\"false\"></xref> which\nare the input of a migration project, and\nprovides methods to obtain translation memory creators (<xref href=\"Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ITranslationMemoryCreator\" data-throw-if-not-resolved=\"false\"></xref>), which\nare used to create the output TM of a migration project.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IExportableLegacyTranslationMemory.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IExportableLegacyTranslationMemory.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IExportableLegacyTranslationMemory",
-      "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IExportableLegacyTranslationMemory.yml\" sourcestartlinenumber=\"1\">Represents a legacy translation memory that provides functionality to export its content to a TMX file.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IFieldIdentifierMappings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IFieldIdentifierMappings.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IFieldIdentifierMappings",
-      "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IFieldIdentifierMappings.yml\" sourcestartlinenumber=\"1\">Represents a mapping between field names of a translation memory. This is typically used to list\nfield names which should be renamed, retyped, or deleted during migration.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IFieldIdentifierMappingsCollection.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IFieldIdentifierMappingsCollection.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IFieldIdentifierMappingsCollection",
-      "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IFieldIdentifierMappingsCollection.yml\" sourcestartlinenumber=\"1\">Represents a collection of field identifier mappings.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IFileBasedTranslationMemoryCreator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IFileBasedTranslationMemoryCreator.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IFileBasedTranslationMemoryCreator",
-      "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IFileBasedTranslationMemoryCreator.yml\" sourcestartlinenumber=\"1\">Represents a factory object used to create a file-based Trados Studio translation memory.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IInputLanguageDirectionData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IInputLanguageDirectionData.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IInputLanguageDirectionData",
-      "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IInputLanguageDirectionData.yml\" sourcestartlinenumber=\"1\">Represents a single input translation memory language direction, as well as resource data and\nmigration settings within a migration project. It is part of of a possibly multilingual input\ntranslation memory.</p>\n<p>\nThis object is specific to an output translation memory within the migration project \n(see <xref href=\"Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IOutputTranslationMemory.InputLanguageDirections\" data-throw-if-not-resolved=\"false\"></xref>).\n</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IInputLanguageDirectionDataCollection.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IInputLanguageDirectionDataCollection.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IInputLanguageDirectionDataCollection",
-      "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IInputLanguageDirectionDataCollection.yml\" sourcestartlinenumber=\"1\">Represents a collection of input language data (see <xref href=\"Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IInputLanguageDirectionData\" data-throw-if-not-resolved=\"false\"></xref>),\nwhich makes up the content that will be imported into a single output translation\nmemory (see <xref href=\"Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IOutputTranslationMemory.InputLanguageDirections\" data-throw-if-not-resolved=\"false\"></xref>).</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IInputTranslationMemory.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IInputTranslationMemory.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IInputTranslationMemory",
-      "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IInputTranslationMemory.yml\" sourcestartlinenumber=\"1\">Represents a legacy translation memory that is part of a migration project (see <xref href=\"Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IMigrationProject\" data-throw-if-not-resolved=\"false\"></xref>).\nThis has a reference to legacy translation memory (see <xref href=\"Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ILegacyTranslationMemory\" data-throw-if-not-resolved=\"false\"></xref>, provides access to theis translation memory's\nsetup information and holds status information about whether the necessary content has been exported to TMX yet (see <xref href=\"Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IInputTranslationMemory.TmxFileStatus\" data-throw-if-not-resolved=\"false\"></xref>\nand <xref href=\"Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IInputTranslationMemory.TmxFilePath\" data-throw-if-not-resolved=\"false\"></xref>).</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IInputTranslationMemoryCollection.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IInputTranslationMemoryCollection.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IInputTranslationMemoryCollection",
-      "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IInputTranslationMemoryCollection.yml\" sourcestartlinenumber=\"1\">Represents a collection of input translation memories (see <xref href=\"Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IInputTranslationMemory\" data-throw-if-not-resolved=\"false\"></xref>) in a migration project (see <xref href=\"Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IMigrationProject\" data-throw-if-not-resolved=\"false\"></xref>).</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IItemCollection-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IItemCollection-1.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IItemCollection<T>",
-      "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IItemCollection-1.yml\" sourcestartlinenumber=\"1\">IItemCollection interface represents an item collection; an item collection is\na list that fires events when an item is added or removed.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ILegacyLanguageDirectionData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ILegacyLanguageDirectionData.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ILegacyLanguageDirectionData",
-      "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ILegacyLanguageDirectionData.yml\" sourcestartlinenumber=\"1\">Represenst a language direction and its associated settings and data within a legacy translation memory (see <xref href=\"Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ILegacyTranslationMemory\" data-throw-if-not-resolved=\"false\"></xref>).</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ILegacyLanguageResources.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ILegacyLanguageResources.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ILegacyLanguageResources",
-      "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ILegacyLanguageResources.yml\" sourcestartlinenumber=\"1\">Represents a set of migrated legacy language resources originating from a legacy translation memory.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ILegacyTranslationMemory.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ILegacyTranslationMemory.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ILegacyTranslationMemory",
-      "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ILegacyTranslationMemory.yml\" sourcestartlinenumber=\"1\">Represents a legacy translation memory, which can be used in a migration project (<xref href=\"Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IMigrationProject\" data-throw-if-not-resolved=\"false\"></xref>).\nExplicit inheritors:</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ILegacyTranslationMemorySetup.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ILegacyTranslationMemorySetup.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ILegacyTranslationMemorySetup",
-      "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ILegacyTranslationMemorySetup.yml\" sourcestartlinenumber=\"1\">Represents setup information retrieved from a legacy translation memory (see <xref href=\"Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ILegacyTranslationMemory.GetSetup\" data-throw-if-not-resolved=\"false\"></xref>).</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IMigrationProject.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IMigrationProject.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IMigrationProject",
-      "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IMigrationProject.yml\" sourcestartlinenumber=\"1\">A  migration project encapsulates functionality to migrate one or more legacy translation memories to one or more\nnew translation memories. Use this object as follows:</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IOutputTranslationMemory.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IOutputTranslationMemory.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IOutputTranslationMemory",
-      "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IOutputTranslationMemory.yml\" sourcestartlinenumber=\"1\">Represents an output translation memory to be created within a migration project, to which the contents of one or more legacy translation\nmemories (or language directions within such TMs) will be migrated. Holds settings required to create the new translation memory (<xref href=\"Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IOutputTranslationMemory.InputLanguageDirections\" data-throw-if-not-resolved=\"false\"></xref>,\n<xref href=\"Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IOutputTranslationMemory.TranslationMemoryCreator\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IOutputTranslationMemory.Setup\" data-throw-if-not-resolved=\"false\"></xref>) and provides status information on the migration process.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IOutputTranslationMemoryCollection.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IOutputTranslationMemoryCollection.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IOutputTranslationMemoryCollection",
-      "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IOutputTranslationMemoryCollection.yml\" sourcestartlinenumber=\"1\">Represents a collection of output translation memories (see <xref href=\"Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IOutputTranslationMemory\" data-throw-if-not-resolved=\"false\"></xref>) in a migration project (see <xref href=\"Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IMigrationProject\" data-throw-if-not-resolved=\"false\"></xref>).</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ITmxLegacyTranslationMemory.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ITmxLegacyTranslationMemory.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ITmxLegacyTranslationMemory",
-      "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ITmxLegacyTranslationMemory.yml\" sourcestartlinenumber=\"1\">Represents a TMX file which can be used as input to a migration project.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ITranslationMemoryCreator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ITranslationMemoryCreator.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ITranslationMemoryCreator",
-      "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ITranslationMemoryCreator.yml\" sourcestartlinenumber=\"1\">Represents an object that can create translation memories. This is used to create output translation memories (see <xref href=\"Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IOutputTranslationMemory.TranslationMemoryCreator\" data-throw-if-not-resolved=\"false\"></xref>).</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ITranslationMemoryExporter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ITranslationMemoryExporter.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ITranslationMemoryExporter",
-      "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ITranslationMemoryExporter.yml\" sourcestartlinenumber=\"1\">Represents an engine which can be used to export translation memory data.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ITranslationMemorySetupOptions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ITranslationMemorySetupOptions.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ITranslationMemorySetupOptions",
-      "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ITranslationMemorySetupOptions.yml\" sourcestartlinenumber=\"1\">Represents the setup information that will be used to create an output translation memory (see <xref href=\"Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.IOutputTranslationMemory.Setup\" data-throw-if-not-resolved=\"false\"></xref>).</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.InputLanguagePair.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.InputLanguagePair.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.InputLanguagePair",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.InputLanguagePairCollection.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.InputLanguagePairCollection.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.InputLanguagePairCollection",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ItemCollection-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ItemCollection-1.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ItemCollection<T>",
-      "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ItemCollection-1.yml\" sourcestartlinenumber=\"1\">ItemCollection class represents an item collection; an item collection is\na list that fires events when an item is added or removed.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ItemCollectionAddedEventArgs-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ItemCollectionAddedEventArgs-1.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ItemCollectionAddedEventArgs<T>",
-      "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ItemCollectionAddedEventArgs-1.yml\" sourcestartlinenumber=\"1\">ItemCollectionAddedEventArgs class represents item collection added event arguments.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ItemCollectionEventArgs-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ItemCollectionEventArgs-1.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ItemCollectionEventArgs<T>",
-      "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ItemCollectionEventArgs-1.yml\" sourcestartlinenumber=\"1\">ItemCollectionEventArgs class represents item collection event arguments.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ItemCollectionRemovedEventArgs-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ItemCollectionRemovedEventArgs-1.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ItemCollectionRemovedEventArgs<T>",
-      "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ItemCollectionRemovedEventArgs-1.yml\" sourcestartlinenumber=\"1\">ItemCollectionRemovedEventArgs class represents the item collection removed event arguments.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.LegacyLanguage.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.LegacyLanguage.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.LegacyLanguage",
-      "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.LegacyLanguage.yml\" sourcestartlinenumber=\"1\">Represents a language within a legacy translation memory. Provides a way to keep track of the original language code\nand name, as well as the associated <xref href=\"Sdl.Core.Globalization.CultureCode\" data-throw-if-not-resolved=\"false\"></xref> object.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.LegacyLanguagePair.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.LegacyLanguagePair.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.LegacyLanguagePair",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.LegacyTranslationMemorySetup.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.LegacyTranslationMemorySetup.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.LegacyTranslationMemorySetup",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ProgressEventArgs.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ProgressEventArgs.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ProgressEventArgs",
-      "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.ProgressEventArgs.yml\" sourcestartlinenumber=\"1\">Encapsulates the data associated with cancellable progress events.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.TmxFileStatus.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.TmxFileStatus.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.TmxFileStatus",
-      "Summary": "<p sourcefile=\"api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.TmxFileStatus.yml\" sourcestartlinenumber=\"1\">Represents the status of a TMX export file.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/translationmemory/Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade",
-      "Summary": null
     },
     {
       "type": "ManagedReference",
